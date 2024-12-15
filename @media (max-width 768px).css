@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  #product-catalog {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  #product-catalog {
+    grid-template-columns: 1fr;
+  }
+}
